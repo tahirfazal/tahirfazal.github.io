@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+font-family:'Julius Sans One',serif;
+}
+
+body{
+  font-family: 'Catamaran',serif;
+}
+
+.title p{
+
+margin: 10px 0px 20px 25px;
+font-size:30px;
+font-weight:100;
+
+
+}
+
+.title p strong{
+
+font-weight: 900;
+}
+
+
+
+header {
+padding: 10px 0 10px 0;
+color: white;
+background-color:#4c94c4;
+border-bottom: 4px #b7d2ff solid
+
+}
+
+nav ul{
+  display:flex;
+justify-content:space-around;
+margin:0 50px 0 50px;
+
+
+}
+
+nav li{
+list-style: none;
+display: inline;
+font-size:20px
+}
+
+.pestana-actual{
+  font-weight: 900;
+}
+
+nav a:link,
+nav a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:hover,
+nav a:visited:hover,
+nav a:active,
+nav a:visited:active {
+  color: #ccf4ff;
+}
+
+/*-----------------CUERPO DE ABOUT ME-------------------*/
+
+body{
+  background-color: #dddddd;
+}
+
+.content{
+  display: flex;
+  /*border: 2px black solid;*/
+  margin:0 10% 0 10%;
+  justify-content: center;
+  align-self: center;
+}
+
+.content.blog{
+  justify-content: flex-start;
+}
+
+.content.contact{
+padding-top: 50px;
+justify-content:space-around;
+align-items: center;
+}
+
+
+
+h1{
+  margin-top:20px;
+  margin-bottom:20px;
+}
+
+
+.fotos-izquierda{
+  float:left;
+  margin-left: 20px;
+  margin-top: 20px;
+  margin-right: 20px;
+
+}
+article p {
+max-width: 1200px;
+margin-bottom:20px;
+margin-left:30px;
+text-align: justify;
+clear:none
+}
+
+article ul a{
+  list-style: circle;
+  text-decoration: none;
+  color:#4f6a96;
+}
+
+article h1{
+  margin-left:20px;
+}
+
+iframe {
+   display: block;
+   margin: 0 auto;
+   padding-bottom:30px;
+}
+
+
+
+.quotes{
+  font-size:120%;
+  font-style:italic;
+  display:flex;
+  color:gray;
+  justify-content: center;
+  margin-top:40px;
+}
+
+
+
+/*-------------------CUERPO DE BLOG*------------------*/
+
+.entry {
+  display:block;
+  width:300px;
+  height:150px;
+  border:1px black solid;
+  margin: 20px 20px 20px 20px;
+
+}
+
+.entry h1{
+  text-shadow: -2px -2px 0 #000,
+    2px -2px 0 #000,
+    -2px 2px 0 #000,
+    2px 2px 0 #000;
+    -webkit-font-smoothing: antialiased;
+}
+.entry1 {
+background-image:url(Hello-world.png);
+color:#ffffff;
+opacity:0.5;
+text-decoration: none;
+text-align:center;
+}
+
+.entry2 {
+background-image:url(entry2.png);
+color:#ffffff;
+opacity:0.5;
+text-decoration: none;
+text-align:center;
+}
+
+.entry:hover{
+  opacity:1;
+}
+
+.quotes{
+  font-size:120%;
+  font-style:italic;
+  display:flex;
+  color:gray;
+  justify-content: center;
+}
